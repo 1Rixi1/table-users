@@ -1,0 +1,28 @@
+.userList {
+  width: 900px;
+}
+
+.column {
+  width: 25%;
+}
+
+.img > img {
+  border-radius: 50%;
+}
+
+.dataTable [data-pc-name="paginator"] {
+  column-gap: 30px;
+}
+
+.dataTable [data-pc-name="paginator"] [data-pc-section="pages"] {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.dataTable [data-pc-name="paginator"] [data-pc-section="pages"] > button {
+  background-color: cornflowerblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
